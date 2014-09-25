@@ -119,18 +119,30 @@ items:
 
   - name: Crunchbase
     source: TechCrunch via crowdsourcing
-
-
-
+    source_url: http://www.crunchbase.com/
+    description: |
+      This comprehensive, crowdsourced database of company information, including notable employees, investors, and funding rounds, has accompanied TechCrunch's coverage over the years. It's not perfect, but it's as detailed (and used) of a business dataset you'll find for startups and acquisitions.
 
   - name: NYC 311 calls
+    source: New York City
+    source_url: https://nycopendata.socrata.com/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9
+    description: Millions of complaints about pot holes and loud music in the city that never sleeps.
+
 
   - name: NYC restaurants inspections data
-
+    source: New York City health department
+    source_url: https://data.cityofnewyork.us/Health/DOHMH-New-York-City-Restaurant-Inspection-Results/xx67-kt59
 
   - name: White House Visitors Log
+    source: White House
+    source_url: http://www.whitehouse.gov/briefing-room/disclosures/visitor-records
+    description: |
+      The names of just about everyone who has visited President Obama's White House, when they visited, and who they met.
 
   - name: Chicago crime incidents
+    source: Chicago Police Department
+    source_url: https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2
+
   - name: San Francisco crime incidents
     source: San Francisco Police Department
     source_url: https://data.sfgov.org/Public-Safety/SFPD-Reported-Incidents-2003-to-Present/dyj4-n68b
@@ -138,10 +150,16 @@ items:
       Incidents reported via the SFPD CABLE System, from 1/1/2003 to present. In KML format (past 90 days) In Shapefile format (by year) In CSV format (all: 800,000 plus records).
 
   - name: NYC subway turnstile data
+    source: Metropolitan Transportation Authority
+    source_url: http://web.mta.info/developers/turnstile.html
+    description: How many people enter and exit New York's subways
 
   - name: OSHA Workplace Injury data
 
   - name: NFL plays
+    source_url: http://www.advancedfootballanalytics.com/2010/04/play-by-play-data.html
+    source: Brian Burke of Advanced Football Analytics
+    description: Every game and every play since the 2002 season.
 
   - name: Food and drug recalls
 
